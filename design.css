@@ -1,0 +1,194 @@
+body {
+    background-color:#F1D6D6;
+  }
+
+nav, .navbar, .navbar-collapse, .navbar-brand {
+    background-color: #F1D6D6 !important;  
+}
+.navbar-nav .nav-link {
+    white-space: nowrap;
+  }
+  .navbar-brand {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+    font-family:'Jaini Purva', sans-seri ;
+    font-weight: bolder;
+    font-style: italic;
+ margin-left: 40px;
+ font-size: 60px;
+ margin-top: -5px;
+  }
+  .form-control {
+    min-width: 100px; /* Adjust minimum width as needed */
+  }
+  .slogan {
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: black;
+    margin-top: 60px;
+    font-size: 40px;
+  }
+
+.suggestion{
+  margin-top: 80px;
+  color: black;
+  font-weight: bold;
+  font-family: Jacques Francois;
+  font-size: 30px;
+}
+
+.price-button {
+  background-color:black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.price-button:hover {
+  background-color: black;
+}
+
+.bi-search {
+  flex-shrink: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 170px;
+  transform: translateY(-50%);
+  color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.bi-person{
+  transform: translateY(-30%);
+  margin-left: 40px;
+  width: 20px;
+  height: 30px;
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.search-container{
+  display: flex;
+  position: relative;
+  background-color: #F1D6D6;
+}
+
+ .search-container input:not(:placeholder-shown) + .bi-search {  /* to make search iconn dissapper while typing on search bar */
+  display:none;
+}   
+
+.bi-cart{
+  transform: translateY(-30%);
+  margin-left: 50px;
+  width: 30px;
+  height: 40px;
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+  cursor: pointer;
+  fill: black;
+  margin-right:-10px;
+}
+
+
+/* for the login page  */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #F1D6D6; /* light pinkish background */
+}
+
+.background::before,
+.background::after {
+  content: '';
+  position: absolute;
+  margin-top: 300px;
+  margin-right: -200px;
+  margin-bottom: 500px;
+  width: 600px;
+  height: 500px;
+  background-color: #324c47; /* teal green color */
+  border-radius: 90%;
+}
+
+.background::before {
+  top: -60px;
+  left: -350px;
+  transform: scale(1.2);
+}
+
+.background::after {
+  bottom: -150px;
+  right: -150px;
+  transform: scale(1.2);
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+}
+
+.login-card {
+  max-width: 400px;
+  background-color: #e9cfc5;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logo h1 {
+  color: #324c47;
+}
+
+.logo p {
+  color: #324c47;
+  font-size: 0.9em;
+}
+
+.cart-icon svg {
+  fill: #324c47;
+}
+
+.form-control {
+  border: 1px solid #324c47;
+  border-radius: 5px;
+}
+
+.btn-dark {
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-dark:hover {
+  background-color: #444;
+}
+
+p a.btn {
+  color: #fff;
+  text-decoration: none;
+}
+.header{
+  margin: left;
+}
